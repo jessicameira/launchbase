@@ -11,4 +11,8 @@ Execicios para fixação de conceitos e prática sobre -> {
     -   Funções e métodos;
     -   Estruturas de repetição;
     -   Escopos.
+    -   Booleanos;
+    -   Organização;
+    -   Padronização;
+    -   Escrita.
 }

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    padding: 30px;
+    background: rgb(113, 89, 193);
+}
+header a{
+    margin-right: 30px;
+    font-size:19px; 
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container #logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background: rgb(113, 89, 193);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+#container #logo img{
+    width: 200px;
+    height: 200px;
+
+}
+#container #sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+}
+#container #sobre h1{
+    color: rgb(75, 75, 75);
+    text-align: left;
+
+}
+#container #sobre h4{
+    color: rgb(154, 142, 191);
+    text-align: left;
+    line-height: 36px;
+}
+#container .cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#container .cursos section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
