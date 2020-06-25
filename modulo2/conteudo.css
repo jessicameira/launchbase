@@ -1,0 +1,79 @@
+#container .cursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    
+}
+#container .cursos div {
+    height: 80vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 4px solid rgb(113, 89, 193);
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    color: #444;
+
+}
+#container .cursos div h4, #container .cursos div p {
+    color: #444;
+
+}
+
+#starter span{
+    color: rgb(113, 89, 193);
+    padding: 20px;
+    border: 2px solid rgb(113, 89, 193);
+    border-radius: 50%;
+}
+#launchbase span{
+    color: rgb(253, 149, 31);
+    padding: 20px;
+    border: 2px solid rgb(253, 149, 31);
+    border-radius: 50%;
+}
+#gostack span{
+    color: rgb(4, 211, 97);
+    padding: 20px;
+    border: 2px solid rgb(4, 211, 97);
+    border-radius: 50%;
+}
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 15px;
+}
+
+.modal{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    height: 98%;
+    border-radius: 16px;
+
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+.modal iframe{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.modal-overlay.active.max {
+    width: 100vw;
+    height: 100vh;
+}
